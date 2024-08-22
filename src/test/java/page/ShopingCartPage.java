@@ -148,6 +148,8 @@ public class ShopingCartPage extends ProjectSpecificationMethod {
 	}
 	
 	public void paymentInformationValidation() {
+		try {
+			Thread.sleep(15000);
 		clickElement(countryImageElement);
 		clickElement(menuButtonElement);
 		clickElement(tvButtonElement);	
@@ -168,11 +170,10 @@ public class ShopingCartPage extends ProjectSpecificationMethod {
 		sendKeyElements(addressLineElement,"salem");
 		sendKeyElements(postCodeElement,"salem");
 			
-		try {
-			Thread.sleep(15000);
+		
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("error occur payment");
 		}
 	}
 }

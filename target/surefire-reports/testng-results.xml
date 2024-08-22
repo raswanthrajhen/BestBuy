@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-21T17:22:01 IST" name="Suite" finished-at="2024-08-21T17:25:57 IST" duration-ms="236102">
+    <groups>
+    </groups>
+    <test started-at="2024-08-21T17:22:01 IST" name="Test" finished-at="2024-08-21T17:25:57 IST" duration-ms="236102">
+      <class name="test.TC001_Signup">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:22:02 IST" name="browserLaunch" finished-at="2024-08-21T17:22:14 IST" duration-ms="12436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="createAccount([Ljava.lang.String;)[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:22:14 IST" name="createAccount" data-provider="getData" finished-at="2024-08-21T17:22:26 IST" duration-ms="12514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@176f7f3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="browserCloseBrowser()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:22:26 IST" name="browserCloseBrowser" finished-at="2024-08-21T17:22:27 IST" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:22:27 IST" name="browserLaunch" finished-at="2024-08-21T17:22:37 IST" duration-ms="10425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="menuShopingCart()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:22:37 IST" name="menuShopingCart" finished-at="2024-08-21T17:23:02 IST" duration-ms="24358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuShopingCart -->
+        <test-method is-config="true" signature="browserCloseBrowser()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:23:02 IST" name="browserCloseBrowser" finished-at="2024-08-21T17:23:02 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:23:02 IST" name="browserLaunch" finished-at="2024-08-21T17:23:14 IST" duration-ms="11939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="paymentInformation()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:23:14 IST" name="paymentInformation" finished-at="2024-08-21T17:24:12 IST" duration-ms="57983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentInformation -->
+        <test-method is-config="true" signature="browserCloseBrowser()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:24:12 IST" name="browserCloseBrowser" finished-at="2024-08-21T17:24:12 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:24:12 IST" name="browserLaunch" finished-at="2024-08-21T17:24:23 IST" duration-ms="11069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="shopingCart()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:24:23 IST" name="shopingCart" finished-at="2024-08-21T17:25:01 IST" duration-ms="37851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopingCart -->
+        <test-method is-config="true" signature="browserCloseBrowser()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:25:01 IST" name="browserCloseBrowser" finished-at="2024-08-21T17:25:02 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:25:02 IST" name="browserLaunch" finished-at="2024-08-21T17:25:12 IST" duration-ms="10665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="signIn()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:25:12 IST" name="signIn" finished-at="2024-08-21T17:25:28 IST" duration-ms="15277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="browserCloseBrowser()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:25:28 IST" name="browserCloseBrowser" finished-at="2024-08-21T17:25:28 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseBrowser -->
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:25:28 IST" name="browserLaunch" finished-at="2024-08-21T17:25:40 IST" duration-ms="11797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.bestbuy.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validateTitle()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:25:40 IST" name="validateTitle" finished-at="2024-08-21T17:25:57 IST" duration-ms="16852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="browserCloseBrowser()[pri:0, instance:test.TC001_Signup@6c2c1385]" started-at="2024-08-21T17:25:57 IST" name="browserCloseBrowser" finished-at="2024-08-21T17:25:57 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseBrowser -->
+      </class> <!-- test.TC001_Signup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
